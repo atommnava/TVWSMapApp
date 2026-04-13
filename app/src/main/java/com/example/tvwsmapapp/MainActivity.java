@@ -4,7 +4,6 @@ import android.os.Bundle;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -111,4 +110,4 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             mMap.addPolygon(polygonOptions);
         }
     }
-}
+}}
