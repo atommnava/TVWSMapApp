@@ -9,5 +9,5 @@ public interface ApiService {
 
     @Headers("Content-Type: application/json")
     @POST("/")
-    Call<Object> getCoverage(@Body CoverageRequest request);
+    Call<CoverageResponse> getCoverage(@Body CoverageRequest request);
 }
